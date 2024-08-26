@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Background */
+  --background-default: #f5f4f0;
+
+  /* Border */
+  --border-primary: #d9d9d9;
+
+  /* Text */
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  /* Accent */
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+
+  /* Typography */
+  font-family: OpenSans, sans-serif;
+  color: var(--text-secondary);
+}
+
+body {
+  background: var(--background-default);
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-top: 1.25rem;
+}
+
+.headline {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--text-headline);
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: regular;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+figure {
+  margin-top: 2.5rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 1.75rem;
+}
+
+.divider {
+  height: 0.0625rem;
+  background: var(--border-primary);
+  margin: 2.5rem 0;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.article p {
+  margin-bottom: 1.5rem;
+}
+
+span {
+  font-weight: 700;
+}
+
+ul {
+  padding-inline-start: 1.5rem;
+  font-weight: 700;
+}
+
+li.history {
+  color: var(--accent-blue);
+}
+
+li.couple {
+  color: var(--accent-purple);
+}
+
+li.families {
+  color: var(--accent-pink);
+}
+
+li.budge {
+  color: var(--accent-orange);
+}
+
+.description p {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+footer {
+  display: flex;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#heart {
+  width: 1rem;
+  height: 1rem;
+}
