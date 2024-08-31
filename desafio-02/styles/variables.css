@@ -1,0 +1,33 @@
+:root {
+  /* COLORS */
+  /* Principal */
+  --color-red: hsla(355, 69%, 64%, 1);
+  --color-purple: hsla(277, 72%, 68%, 1);
+  --color-blue: hsla(205, 69%, 54%, 1);
+  --color-green: hsla(92, 45%, 52%, 1);
+  --color-yellow: hsla(40, 77%, 65%, 1);
+
+  /* Basis */
+  --color-gray-100: hsla(224, 12%, 90%, 1);
+  --color-gray-200: hsla(224, 12%, 78%, 1);
+  --color-gray-300: hsla(224, 12%, 58%, 1);
+  --color-gray-400: hsla(224, 12%, 18%, 1);
+  --color-gray-500: hsla(223, 14%, 10%, 1);
+  --color-gray-600: hsla(225, 13%, 6%, 1);
+
+  /* TYPOGRAPHY */
+  /* Titles */
+  --title-font-family: Asap, sans-serif;
+  --title-lg: 700 3.5rem/120% var(--title-font-family);
+  --title-md: 700 1.5rem/120% var(--title-font-family);
+  --title-sm: 700 1rem/120% var(--title-font-family);
+
+  /* Subtitles */
+  --subtitle-font-family: Inconsolota, monospace;
+  --subtitle: 400 1.25rem/120% var(--subtitle-font-family);
+
+  /* Texts */
+  --text-font-family: 'Maven Pro', sans-serif;
+  --text-md: 400 1rem/140% var(--text-font-family);
+  --text-sm: 400 0.875rem/140% var(--text-font-family);
+}
