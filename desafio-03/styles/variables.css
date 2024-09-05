@@ -1,0 +1,55 @@
+:root {
+  /* COLORS */
+  /* Brand */
+  --brand-light: hsla(208, 100%, 67%, 1);
+  --brand-mid: hsla(208, 62%, 51%, 1);
+  --brand-dark: hsla(208, 73%, 41%, 1);
+
+  /* Accent */
+  --color-purple: hsla(272, 100%, 67%, 1);
+  --color-fuschia: hsla(302, 100%, 67%, 1);
+  --color-pink: hsla(342, 100%, 67%, 1);
+  --color-orange: hsla(18, 100%, 67%, 1);
+  --color-yellow: hsla(42, 100%, 67%, 1);
+  --color-lime: hsla(71, 100%, 67%, 1);
+  --color-green: hsla(140, 100%, 67%, 1);
+  --color-cyan: hsla(178, 100%, 67%, 1);
+  --color-navy: hsla(246, 100%, 67%, 1);
+
+  /* Feedback */
+  --color-danger: hsla(0, 100%, 67%, 1);
+
+  /* Input */
+  --input-base: hsla(204, 8%, 12%, 1);
+  --input-stroke: hsla(210, 8%, 23%, 1);
+  --input-placeholder: hsla(203, 8%, 56%, 1);
+
+  /* Shape */
+  --shape-background: hsla(200, 7%, 8%, 1);
+  --shape-body: hsla(210, 8%, 14%, 1);
+  --shape-button: hsla(210, 8%, 19%, 1);
+  --shape-hover: hsla(210, 8%, 24%, 1);
+
+  /* Text */
+  --text-body: hsla(206, 8%, 80%, 1);
+  --text-heading: hsla(206, 8%, 98%, 1);
+
+  /* TYPHOGRAPHY */
+  /* Logo */
+  --logo-font: 'Leckerli One', cursive;
+  --text-logo: 400 2.5rem var(--logo-font);
+
+  /* Titles */
+  --title-font: 'Baloo 2', sans-serif;
+  --heading-md: 700 1.75rem var(--title-font);
+  --heading-sm: 700 1.125rem var(--title-font);
+
+  /* Body */
+  --body-font: 'Open Sans', sans-serif;
+  --body-md-regular: 400 1rem var(--body-font);
+  --body-md-semibold: 600 1rem var(--body-font);
+  --body-sm-regular: 400 0.875rem var(--body-font);
+  --body-sm-semibold: 600 0.875rem var(--body-font);
+  --body-xs-regular: 400 0.75rem var(--body-font);
+  --body-xs-semibold: 600 0.75rem var(--body-font);
+}

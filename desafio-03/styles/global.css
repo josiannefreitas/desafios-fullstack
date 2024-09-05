@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--shape-background);
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem;
+  gap: 1.25rem;
+
+  color: var(--text-body);
+}
+
+h1 {
+  font: var(--text-logo);
+  color: var(--color-pink);
+}
+
+h2 {
+  font: var(--heading-md);
+  color: var(--text-heading);
+  /* align-self: flex-start; */
+  width: 35rem;
+}
+
+p {
+  font: var(--body-md-regular);
+  color: var(--text-heading);
+}
