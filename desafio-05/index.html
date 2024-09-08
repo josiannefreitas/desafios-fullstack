@@ -1,192 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Portal de Notícias</title>
-</head>
-<body>
-  <header>
-    <nav class="primary">
-      <div class="link-button">
-        <i class="ph ph-list"></i>
-        <strong>Menu</strong>
-      </div>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-      <div class="logo">
-        <h1>Tech News</h1>
-      </div>
-
-      <div class="link-button">
-        <strong>Buscar</strong>
-        <i class="ph ph-magnifying-glass"></i>
-      </div>
-    </nav>
-
-    <nav class="secondary">
-      <ul>
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Inteligência Artificial</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Blockchain</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Hologramas</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Internet</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Vestíveis</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Realidade Aumentada</a>
-        </li>
-
-        <li>
-          <a href="#" target="_blank" rel="noopener noreferrer">Realidade  Virtual</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section id="highlights">
-      <div class="news-card">
-        <tag>Robótica</tag>
-        <h2>Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
-      </div>
-
-      <div class="highlight-news">
-        <div class="news-card">
-          <tag>Hologramas</tag>
-          <h4>Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</h4>
-        </div>
-
-        <div class="news-card">
-          <tag>Internet</tag>
-          <h4>Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.</h4>
-        </div>
-
-        <div class="news-card">
-          <tag>Vestíveis</tag>
-          <h4>Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.
-          </h4>
-        </div>
-
-        <div class="news-card">
-          <tag>Realidade Virtual</tag>
-          <h4>Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.</h4>
-        </div>
-      </div>
-    </section>
-    
-    <section id="most-read">
-      <header class="news-header">
-        <span>Mais lidas da semana</span>
+    <title>Portal de Notícias</title>
+  </head>
+  <body>
+    <header>
+      <nav class="primary">
         <div class="link-button">
-          <small>Ver tudo</small>
-          <i class="ph ph-arrow-right"></i>
+          <i class="ph ph-list"></i>
+          <strong>Menu</strong>
         </div>
-      </header>
 
-      <div id="most-read-news">
-        <figure>
-          <tag>Veículos</tag>
-          <img src="./assets/image-06.png" alt="Notícia 06">
-          <figcaption>Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.</figcaption>
-        </figure>
-        
-        <figure>
-          <tag>Hologramas</tag>
-          <img src="./assets/image-07.png" alt="Notícia 07">
-          <figcaption>Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamadas virtuais mais realistas e envolventes.</figcaption>
-        </figure>
-        
-        <figure>
-          <tag>Realidade virtual</tag>
-          <img src="./assets/image-08.png" alt="Notícia 08">
-          <figcaption>Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiências de jogo totalmente envolventes.</figcaption>
-        </figure>
-        
-        <figure>
-          <tag>Internet</tag>
-          <img src="./assets/image-09.png" alt="Notícia 09">
-          <figcaption>Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.</figcaption>
-        </figure>
-      </div>
-    </section>
+        <div class="logo">
+          <h1>Tech News</h1>
+        </div>
 
-    <section id="bottom">
-      <section id="ia">
+        <div class="link-button">
+          <strong>Buscar</strong>
+          <i class="ph ph-magnifying-glass"></i>
+        </div>
+      </nav>
+
+      <nav class="secondary">
+        <ul role="list">
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">Inteligência Artificial</a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">Blockchain</a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">Hologramas</a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">Internet</a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">Vestíveis</a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">Realidade Aumentada</a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" rel="noopener noreferrer">Realidade Virtual</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="highlights">
+        <div class="news-card image-01">
+          <tag>Robótica</tag>
+          <h2>
+            Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.
+          </h2>
+        </div>
+
+        <div class="highlight-news">
+          <div class="news-card image-02">
+            <tag>Hologramas</tag>
+            <h4>
+              Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!
+            </h4>
+          </div>
+
+          <div class="news-card image-03">
+            <tag>Internet</tag>
+            <h4>
+              Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.
+            </h4>
+          </div>
+
+          <div class="news-card image-04">
+            <tag>Vestíveis</tag>
+            <h4>
+              Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.
+            </h4>
+          </div>
+
+          <div class="news-card image-05">
+            <tag>Realidade Virtual</tag>
+            <h4>
+              Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.
+            </h4>
+          </div>
+        </div>
+      </section>
+
+      <section id="most-read">
         <header class="news-header">
-          <span>Destaques de Inteligência Artificial</span>
+          <span>Mais lidas da semana</span>
           <div class="link-button">
             <small>Ver tudo</small>
             <i class="ph ph-arrow-right"></i>
           </div>
         </header>
 
-        <div class="news-group">
-          <div class="news-display">
-            <div class="text">
-              <tag>Inteligência Artificial</tag>
-              <h3>Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</h3>
-              <p>Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até planejamento estratégico.</p>
-            </div>
+        <div id="most-read-news">
+          <figure>
+            <tag>Veículos</tag>
+            <img src="./assets/image-06.png" alt="Notícia 06" />
+            <figcaption>
+              Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.
+            </figcaption>
+          </figure>
 
-            <img src="./assets/image-10.png" alt="Notícia 10">
-          </div>
-          
-          <div class="news-display">
-            <div class="text">
-              <tag>Inteligência Artificial</tag>
-              <h3>Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</h3>
-              <p>Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, independentemente do idioma local. Este dispositivo não é mais uma visão futurista, mas uma realidade impressionante que está transformando a forma como nos conectamos globalmente. Nesta reportagem, mergulharemos nas funcionalidades deste dispositivo revolucionário e como ele está moldando uma nova era de compreensão global.</p>
-            </div>
+          <figure>
+            <tag>Hologramas</tag>
+            <img src="./assets/image-07.png" alt="Notícia 07" />
+            <figcaption>
+              Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamadas virtuais mais realistas e envolventes.
+            </figcaption>
+          </figure>
 
-            <img src="./assets/image-11.png" alt="Notícia 11">
-          </div>
+          <figure>
+            <tag>Realidade virtual</tag>
+            <img src="./assets/image-08.png" alt="Notícia 08" />
+            <figcaption>
+              Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiências de jogo totalmente envolventes.
+            </figcaption>
+          </figure>
 
-          <div class="news-display">
-            <div class="text">
-              <tag>Inteligência Artificial</tag>
-              <h3>Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usuários.</h3>
-              <p>A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para fornecer suporte emocional e físico, preenchendo lacunas nas necessidades de cuidado. Nesta matéria, exploraremos como esses companheiros tecnológicos estão impactando positivamente a qualidade de vida da terceira idade e proporcionando uma nova perspectiva sobre o envelhecimento.</p>
-            </div>
-
-            <img src="./assets/image-12.png" alt="Notícia 12">
-          </div>
-          
-          <div class="news-display">
-            <div class="text">
-              <tag>Inteligência Artificial</tag>
-              <h3>Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.
-              </h3>
-              <p>No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenciar tarefas; ele está programado para compreender os padrões de trabalho de cada usuário, oferecendo sugestões personalizadas para otimizar o tempo e maximizar a produtividade. Nesta matéria, exploraremos como essa ferramenta tecnológica está se tornando a chave para manter o foco em um mundo cada vez mais cheio de distrações, transformando a maneira como encaramos nossas responsabilidades diárias.
-              </p>
-            </div>
-
-            <img src="./assets/image-13.png" alt="Notícia 13">
-          </div>
+          <figure>
+            <tag>Internet</tag>
+            <img src="./assets/image-09.png" alt="Notícia 09" />
+            <figcaption>
+              Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.
+            </figcaption>
+          </figure>
         </div>
       </section>
 
-      <aside>
-        <img src="./assets/ads.png" alt="Propaganda">
-
-        <section id="extras">
+      <section id="bottom">
+        <section id="ia">
           <header class="news-header">
-            <span>Viu isso aqui?</span>
+            <span>Destaques de Inteligência Artificial</span>
             <div class="link-button">
               <small>Ver tudo</small>
               <i class="ph ph-arrow-right"></i>
@@ -195,53 +163,184 @@
 
           <div class="news-group">
             <div class="news-display">
-              <img src="./assets/image-14.png" alt="Notícia 14">
-
+              <img src="./assets/image-10.png" alt="Notícia 10" />
+              
               <div class="text">
-                <tag>Software</tag>
-                <h3>Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas e promovendo a conscientização.</h3>
+                <tag>Inteligência Artificial</tag>
+                <h3>
+                  Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.
+                </h3>
+                <p>
+                  Em um avanço surpreendente da inteligência artificial, uma
+                  empresa anuncia o desenvolvimento de um algoritmo capaz de
+                  prever eventos futuros com notável precisão. Descubra como
+                  essa tecnologia está desafiando as fronteiras da previsão e
+                  quais são as implicações para diversas áreas, desde finanças
+                  até planejamento estratégico.
+                </p>
               </div>
             </div>
-            
-            <div class="news-display">
-              <img src="./assets/image-15.png" alt="Notícia 15">
 
+            <div class="news-display">
+              <img src="./assets/image-11.png" alt="Notícia 11" />
+              
               <div class="text">
-                <tag>Realidade Virtual</tag>
-                <h3>Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial completa, imergindo usuários em ambientes digitais.</h3>
+                <tag>Inteligência Artificial</tag>
+                <h3>
+                  Dispositivo portátil promete traduzir instantaneamente
+                  diferentes idiomas, facilitando a comunicação global.
+                </h3>
+                <p>
+                  Em um mundo cada vez mais conectado, a comunicação sem
+                  fronteiras é essencial. Nesse contexto, um dispositivo
+                  portátil surge como um verdadeiro herói linguístico,
+                  prometendo quebrar as barreiras idiomáticas instantaneamente.
+                  Imagine poder se comunicar fluentemente em qualquer lugar do
+                  mundo, independentemente do idioma local. Este dispositivo não
+                  é mais uma visão futurista, mas uma realidade impressionante
+                  que está transformando a forma como nos conectamos
+                  globalmente. Nesta reportagem, mergulharemos nas
+                  funcionalidades deste dispositivo revolucionário e como ele
+                  está moldando uma nova era de compreensão global.
+                </p>
               </div>
             </div>
-            
-            <div class="news-display">
-              <img src="./assets/image-16.png" alt="Notícia 16">
 
+            <div class="news-display">
+              <img src="./assets/image-12.png" alt="Notícia 12" />
+              
               <div class="text">
-                <tag>Criptomoedas</tag>
-                <h3>Surge uma nova moeda digital baseada em tecnologias sustentáveis, buscando minimizar o impacto ambiental associado à mineração de criptomoedas.</h3>
+                <tag>Inteligência Artificial</tag>
+                <h3>
+                  Criados para auxiliar idosos, robôs de companhia ganham
+                  popularidade, oferecendo suporte emocional e físico aos
+                  usuários.
+                </h3>
+                <p>
+                  A tecnologia não só avança, mas também busca tornar a vida
+                  mais significativa para todas as gerações. No cenário atual,
+                  os robôs sociais, projetados especialmente para oferecer apoio
+                  e companhia aos idosos, estão ganhando destaque. Mais do que
+                  meros assistentes, esses robôs são programados para fornecer
+                  suporte emocional e físico, preenchendo lacunas nas
+                  necessidades de cuidado. Nesta matéria, exploraremos como
+                  esses companheiros tecnológicos estão impactando positivamente
+                  a qualidade de vida da terceira idade e proporcionando uma
+                  nova perspectiva sobre o envelhecimento.
+                </p>
               </div>
             </div>
-            
-            <div class="news-display">
-              <img src="./assets/image-17.png" alt="Notícia 17">
 
-              <div class="text">
-                <tag>Drones</tag>
-                <h3>Empresas de e-commerce implementam frota de drones para entregas rápidas, transformando o cenário do comércio online.</h3>
-              </div>
-            </div>
-            
             <div class="news-display">
-              <img src="./assets/image-18.png" alt="Notícia 18">
-
+              <img src="./assets/image-13.png" alt="Notícia 13" />
+              
               <div class="text">
-                <tag>Impressão 3d</tag>
-                <h3>Tecnologia inovadora permite a impressão 3D de órgãos humanos, revolucionando a medicina e a lista de espera por transplantes.</h3>
+                <tag>Inteligência Artificial</tag>
+                <h3>
+                  Aplicativo utiliza inteligência artificial para ajudar
+                  usuários a manterem o foco e aumentarem a produtividade no dia
+                  a dia.
+                </h3>
+                <p>
+                  No turbilhão da vida moderna, onde distrações são abundantes,
+                  um aplicativo inovador surge como um aliado indispensável para
+                  quem busca maior concentração e eficiência no cotidiano.
+                  Utilizando avançados algoritmos de inteligência artificial,
+                  este aplicativo promete mais do que simplesmente gerenciar
+                  tarefas; ele está programado para compreender os padrões de
+                  trabalho de cada usuário, oferecendo sugestões personalizadas
+                  para otimizar o tempo e maximizar a produtividade. Nesta
+                  matéria, exploraremos como essa ferramenta tecnológica está se
+                  tornando a chave para manter o foco em um mundo cada vez mais
+                  cheio de distrações, transformando a maneira como encaramos
+                  nossas responsabilidades diárias.
+                </p>
               </div>
             </div>
           </div>
         </section>
-      </aside>
-    </section>
-  </main>
-</body>
+
+        <aside>
+          <img src="./assets/ads.png" alt="Propaganda" id="ads" />
+
+          <section id="extras">
+            <header class="news-header">
+              <span>Viu isso aqui?</span>
+              <div class="link-button">
+                <small>Ver tudo</small>
+                <i class="ph ph-arrow-right"></i>
+              </div>
+            </header>
+
+            <div class="news-group">
+              <div class="news-display">
+                <img src="./assets/image-14.png" alt="Notícia 14" />
+
+                <div class="text">
+                  <tag>Software</tag>
+                  <h3>
+                    Aplicativo de monitoramento ambiental ganha destaque,
+                    incentivando práticas ecológicas e promovendo a
+                    conscientização.
+                  </h3>
+                </div>
+              </div>
+
+              <div class="news-display">
+                <img src="./assets/image-15.png" alt="Notícia 15" />
+
+                <div class="text">
+                  <tag>Realidade Virtual</tag>
+                  <h3>
+                    Óculos de realidade virtual com feedback tátil proporcionam
+                    uma experiência sensorial completa, imergindo usuários em
+                    ambientes digitais.
+                  </h3>
+                </div>
+              </div>
+
+              <div class="news-display">
+                <img src="./assets/image-16.png" alt="Notícia 16" />
+
+                <div class="text">
+                  <tag>Criptomoedas</tag>
+                  <h3>
+                    Surge uma nova moeda digital baseada em tecnologias
+                    sustentáveis, buscando minimizar o impacto ambiental
+                    associado à mineração de criptomoedas.
+                  </h3>
+                </div>
+              </div>
+
+              <div class="news-display">
+                <img src="./assets/image-17.png" alt="Notícia 17" />
+
+                <div class="text">
+                  <tag>Drones</tag>
+                  <h3>
+                    Empresas de e-commerce implementam frota de drones para
+                    entregas rápidas, transformando o cenário do comércio
+                    online.
+                  </h3>
+                </div>
+              </div>
+
+              <div class="news-display">
+                <img src="./assets/image-18.png" alt="Notícia 18" />
+
+                <div class="text">
+                  <tag>Impressão 3d</tag>
+                  <h3>
+                    Tecnologia inovadora permite a impressão 3D de órgãos
+                    humanos, revolucionando a medicina e a lista de espera por
+                    transplantes.
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </body>
 </html>
