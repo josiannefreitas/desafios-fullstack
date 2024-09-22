@@ -57,7 +57,56 @@
   --body-xs-b: var(--bold) 0.75rem/140% var(--font-family);
   --body-xs-r: var(--regular) 0.75rem/140% var(--font-family);
 
-  --button: var(--bold) .875rem var(--font-family);
-  --link: var(--medium) .875rem var(--font-family);
-  --tag: var(--bold) .625rem var(--font-family);
+  --button: var(--bold) 0.875rem var(--font-family);
+  --link: var(--medium) 0.875rem var(--font-family);
+  --tag: var(--bold) 0.625rem var(--font-family);
+}
+
+body {
+  background: var(--shape-background);
+}
+
+.button {
+  border-radius: 0.5rem;
+  min-height: 2.5rem;
+  padding: 0 1.25rem;
+  gap: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font: var(--button);
+  color: var(--text-title);
+
+  &.primary {
+    background: var(--pink-dark);
+
+    &:hover {
+      background: var(--pink-base);
+    }
+  }
+
+  &.secondary {
+    background: var(--blue-dark);
+
+    &:hover {
+      background: var(--blue-mid);
+    }
+  }
+}
+
+#hero {
+  background-image: url(./assets/images/bg-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & nav {
+    width: 70rem;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
