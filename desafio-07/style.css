@@ -7,3 +7,57 @@
   -moz-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
+:root {
+  /* COLORS */
+  /* Pink */
+  --pink-light: hsla(285, 37%, 72%, 1);
+  --pink-base: hsla(290, 40%, 46%, 1);
+  --pink-dark: hsla(292, 54%, 35%, 1);
+  --pink-low: hsla(298, 63%, 16%, 1);
+
+  /* Blue */
+  --blue-light: hsla(198, 51%, 64%, 1);
+  --blue-base: hsla(201, 55%, 47%, 1);
+  --blue-mid: hsla(202, 65%, 39%, 1);
+  --blue-dark: hsla(206, 70%, 26%, 1);
+  --blue-low: hsla(209, 76%, 13%, 1);
+
+  /* Shape */
+  --shape-stroke: hsla(211, 100%, 14%, 1);
+  --shape-hover: hsla(211, 100%, 10%, 1);
+  --shape-base: hsla(210, 100%, 6%, 1);
+  --shape-background: hsla(210, 100%, 2%, 1);
+
+  /* Text */
+  --text-title: hsla(191, 29%, 98%, 1);
+  --text-body: hsla(192, 12%, 90%, 1);
+  --text-label: hsla(191, 29%, 98%, 1);
+
+  /* TYPOGRAPHY */
+  --font-family: Raleway, sans-serif;
+
+  --bold: 700;
+  --medium: 500;
+  --regular: 400;
+
+  --title-lg: var(--bold) 3rem var(--font-family);
+  --title-md: var(--bold) 2.5rem var(--font-family);
+  --title-sm: var(--bold) 2rem var(--font-family);
+  --title-xs: var(--bold) 1rem var(--font-family);
+
+  --subtitle: var(--medium) 2rem/200% var(--font-family);
+
+  --body-lg-b: var(--bold) 1.25rem/140% var(--font-family);
+  --body-lg-r: var(--regular) 1.25rem/140% var(--font-family);
+  --body-md-b: var(--bold) 1rem/140% var(--font-family);
+  --body-md-r: var(--regular) 1rem/140% var(--font-family);
+  --body-sm-b: var(--bold) 0.875rem/140% var(--font-family);
+  --body-sm-r: var(--regular) 0.875rem/140% var(--font-family);
+  --body-xs-b: var(--bold) 0.75rem/140% var(--font-family);
+  --body-xs-r: var(--regular) 0.75rem/140% var(--font-family);
+
+  --button: var(--bold) .875rem var(--font-family);
+  --link: var(--medium) .875rem var(--font-family);
+  --tag: var(--bold) .625rem var(--font-family);
+}
